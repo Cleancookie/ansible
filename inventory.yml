@@ -1,10 +1,7 @@
 all:
   hosts:
     webserver1:
-      ansible_host: 161.35.172.231
-      ansible_user: cookie
-    webserver2:
-      ansible_host: 161.35.172.232
-      ansible_user: cookie
+      ansible_host: 134.209.240.55
+      ansible_user: root
   vars:
     ansible_python_interpreter: /usr/bin/python3

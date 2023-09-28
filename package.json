@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "ping": "ansible all -i inventory.yml -m ping",
+    "deploy": "ansible-playbook -i inventory.yml nginx.yml",
+    "user": "ansible-playbook -i inventory.yml setup_user.yml --ask-vault-pass"
+  }
+}
